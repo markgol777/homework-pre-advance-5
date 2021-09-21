@@ -27,18 +27,18 @@ let mechanism = (function () {
     function addingOrder() {
         document.querySelector('.btn1').addEventListener('click', () => {
             if (ord.typeOfDrink == 'Пиво' && ord.quantityOfDrinks > 100 || ord.typeOfDrink == 'Пиво' && parseInt(document.querySelector('.input-2').value) <
-                parseInt(document.querySelector('.quantity-of-drinks').value) || ord.typeOfDrink == 'Пиво') {
+                parseInt(document.querySelector('.quantity-of-drinks').value)) {
                 allOrders.push();
                 document.querySelector('.alelrt-message').style.display = 'block';
                 document.querySelector('.quantityOfBeer').innerHTML = document.querySelector('.input-2').value;
 
             } else if (ord.typeOfDrink == 'Вино' && ord.quantityOfDrinks > 50 || ord.typeOfDrink == 'Вино' && parseInt(document.querySelector('.input-3').value) <
-                parseInt(document.querySelector('.quantity-of-drinks').value) || ord.typeOfDrink == 'Вино') {
+                parseInt(document.querySelector('.quantity-of-drinks').value)) {
                 allOrders.push();
                 document.querySelector('.alelrt-message2').style.display = 'block';
                 document.querySelector('.quantityOfWine').innerHTML = document.querySelector('.input-3').value;
             } else if (ord.typeOfDrink == 'Вино' && ord.quantityOfDrinks > 80 || ord.typeOfDrink == 'Пепсі' && parseInt(document.querySelector('.input-4').value) <
-                parseInt(document.querySelector('.quantity-of-drinks').value) || ord.typeOfDrink == 'Пепсі') {
+                parseInt(document.querySelector('.quantity-of-drinks').value)) {
                 allOrders.push();
                 document.querySelector('.alelrt-message3').style.display = 'block';
                 document.querySelector('.quantityOfPepsi').innerHTML = document.querySelector('.input-4').value;
