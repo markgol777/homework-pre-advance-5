@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 810px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: monospace;
+    /* background-color: red; */
+}
+
+.section {
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.content {
+    width: 250px;
+    /* background-color: red; */
+}
+
+.sections {
+    display: flex;
+}
+
+.input-1,
+.input-2,
+.input-3,
+.input-4,
+.quantity-of-drinks {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    padding-left: 10px;
+    border: none;
+}
+
+.btn1,
+.btn2 {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(202, 201, 201);
+}
+
+.btn1-container,
+.btn2-container {
+    height: 50px;
+    margin-top: 15px;
+    margin-left: -50px;
+}
+
+.textArea1 {
+    width: 170px;
+    height: 50px;
+    margin-left: 40px;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+    overflow-y: auto;
+}
+
+.alelrt-message, .alelrt-message2, .alelrt-message3 {
+    background-color: rgb(248, 245, 245);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sorry-text {
+    width: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.x-close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.btn-close {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.balance {
+    display: none;
+}
