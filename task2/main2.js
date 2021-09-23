@@ -98,22 +98,6 @@ const mechanism = (function () {
             }
             orderPrice = 0;
             document.querySelector('.balance').style.display = 'block';
-            // for (let i = 0; i < allOrders.length; i++) {
-            //     if (allOrders[i].typeOfDrink === beer.name) {
-            //         orderPrice += beer.price * allOrders[i].quantityOfDrinks;
-            //         console.log(orderPrice);
-            //     } else if (allOrders[i].typeOfDrink === wine.name) {
-            //         orderPrice += wine.price * allOrders[i].quantityOfDrinks;
-            //         console.log(orderPrice);
-            //     } else if (allOrders[i].typeOfDrink === pepsi.name) {
-            //         orderPrice += pepsi.price * allOrders[i].quantityOfDrinks;
-            //         console.log(orderPrice);
-            //     }
-            //     document.querySelector('.price').innerHTML = `${orderPrice} ${uah}`;
-            //     console.log('quantityOfDrinks', allOrders[i].quantityOfDrinks);
-            //     console.log('typeOfDrink', allOrders[i].typeOfDrink);
-            // }
-
             for (let i = 0; i < goods.length; i++) {
             orderPrice += goods[i].price * goods[i].orderedQuantity;
             document.querySelector('.price').innerHTML = `${orderPrice} ${uah}`;
